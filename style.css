@@ -1,0 +1,128 @@
+body{
+margin:0;
+font-family:'Poppins',sans-serif;
+background:linear-gradient(135deg,#ffe4f2,#e9f4ff,#fff7d9);
+color:#222;
+}
+
+header{
+background:white;
+padding:20px;
+text-align:center;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+h1{
+font-family:'Playfair Display',serif;
+font-size:40px;
+margin-bottom:10px;
+}
+
+nav{
+margin-top:10px;
+}
+
+nav a{
+text-decoration:none;
+margin:0 15px;
+font-weight:600;
+color:#333;
+padding:8px 15px;
+border-radius:20px;
+transition:0.3s;
+}
+
+nav a:hover{
+background:#ff4fa3;
+color:white;
+}
+
+.hero{
+text-align:center;
+padding:80px 20px;
+background:linear-gradient(120deg,#ff4fa3,#7a5cff);
+color:white;
+}
+
+.hero h2{
+font-size:50px;
+margin-bottom:10px;
+}
+
+section{
+max-width:800px;
+margin:auto;
+padding:40px 20px;
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:white;
+margin-top:40px;
+}
+
+.gallery-page{
+max-width:1200px;
+margin:auto;
+padding:50px 20px;
+text-align:center;
+}
+
+.gallery-grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:40px;
+margin-top:30px;
+}
+
+.gallery-item{
+background:white;
+padding:20px;
+border-radius:18px;
+box-shadow:0 6px 18px rgba(0,0,0,0.08);
+}
+
+.gallery-item img{
+width:100%;
+aspect-ratio:1080/1350;
+object-fit:cover;
+border-radius:12px;
+margin-bottom:12px;
+}
+
+.art-info{
+text-align:left;
+font-size:15px;
+line-height:1.4;
+}
+
+.art-info p{
+margin:3px 0;
+}
+
+.gallery-item:hover{
+transform:translateY(-5px);
+transition:0.3s;
+}
+
+.gallery-item{
+background:white;
+padding:20px;
+border-radius:18px;
+box-shadow:0 6px 18px rgba(0,0,0,0.08);
+overflow:hidden;
+}
+
+.gallery-item img{
+width:100%;
+aspect-ratio:1080/1350;
+object-fit:cover;
+border-radius:12px;
+transition:transform 0.35s ease;
+cursor:pointer;
+}
+
+.gallery-item img:hover{
+transform:scale(1.08);
+}
